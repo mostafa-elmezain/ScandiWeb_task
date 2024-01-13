@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteRule ^/$   index.php [NC,QSA]
+    RewriteRule ^AddProduct$   /views/AddProduct.php [NC,QSA]
+    RewriteRule ^ProductControl/add$     /src/AddProduct.php [NC,QSA]
+    RewriteRule ^ErrorPage$    /views/404.php [NC,QSA]
+
+    ErrorDocument 404 /ErrorPage 
+    ErrorDocument 403 /ErrorPage 
+</IfModule>

@@ -1,0 +1,19 @@
+{
+    "name": "scandiweb/product",
+    "description": "Scandiweb Junior Developer Test Task",
+    "type": "project",
+    "license": "MIt",
+    "authors": [
+        {
+            "name": "Mostafa Elmezain",
+            "email": "mostafaelmezian6@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Scandiweb\\" : "src/"
+        }
+    }
+}
