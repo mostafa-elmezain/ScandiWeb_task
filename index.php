@@ -32,7 +32,7 @@
                     <div class="row row-cols-4 g-4 ">
 
                         <?php
-                            $Result = Products::Get_Product();
+                            $Result = Products::GetProduct();
                             if($Result){ foreach($Result as $product){
                         ?>
 
