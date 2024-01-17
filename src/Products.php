@@ -3,7 +3,7 @@
 
         class Products{
 
-            public static function Get_Product(){
+            public static function GetProduct(){
                 $DB = new DBConnection;
 
                 $Query = "SELECT * FROM products";
